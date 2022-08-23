@@ -1,0 +1,70 @@
+/* cursor raquete */
+html{
+    cursor: url('imagens/mata_mosca.png') 30 30, auto;
+}
+
+
+/* cenario */
+body{
+    background: url('imagens/bg.jpg') no-repeat;
+    background-size: 100%;
+}
+
+
+
+/* painel */
+.painel{
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 150px;
+    padding:10px;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    background: url('imagens/coracao_cheio.png') no-repeat;
+    height: 28px;
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font: bold;
+}
+
+
+
+/* muda o tamanho */
+.mosquito0{
+    width: 20px;
+    height: 20px;
+}
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 110px;
+    height: 110px;
+}
+
+
+
+/* muda o lado do mosquito */
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1);
+}
